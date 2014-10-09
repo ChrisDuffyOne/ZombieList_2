@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*MY CSS */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F6F9FA;
+}
+.container{
+	width: 100%;
+	min-height: 100%;
+}
+
+/*//////////////////HEADER SECTION////////////////////////////*/
+
+header{
+	/*height: 200px;*/
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	/*min-width: 960px;*/
+	text-align: center;
+	background-color: #515252;
+}
+
+.logoHead{
+	max-width: 40%;
+	min-width: 200px;
+	min-height: 100px;
+	max-height: 350px;
+}
+
+.rip{
+	overflow: hidden;
+	max-height: 40px;
+	width: 100%;
+}
+
+/*//////////////////CONTENT RIVER SECTION////////////////////////////*/
+
+#listItems{
+	min-height: 200px;
+	/* New CSS */
+	max-width: 600px;
+	display:block; 
+	margin-left: auto; 
+	margin-right: auto;
+	
+}
+
+/*///////////ADD ITEMS SECTION///////////////*/
+
+.itemBox{
+	background-color: #515252;
+	max-width: 500px;
+	padding-top:10px;
+	padding-bottom:5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color:#F1B31C;
+	text-align: center;
+	max-width: 500px;
+}
+
+#addbox{
+	display: block;
+	width: 350px;
+}
+
+#addButton{
+	display: block;
+	margin: 0 auto;
+	border:none;
+	background-color: #515252;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	color:#F1B31C;
+}
+
+/*///////////ITEMS SECTION///////////////*/
+
+.exampleItem{
+	background-color: #515252;
+	max-width: 500px;
+	padding:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color:#F1B31C;
+	height: 40px;
+}
+
+
+
+.checkMark{
+	max-height: 20px;
+	max-width: 20px;
+	float: right;
+}
+
+.deleteMark{
+	max-height: 20px;
+	max-width: 20px;
+	float: right;
+}
+
+.strike{
+	background-image: url("images/splatter.png");
+}
+
+/*//////////////////FOOTER SECTION////////////////////////////*/
+
+footer{
+	width: 100%;
+	/*background-color: #515252;*/
+	border: none;
+	padding-top: 0px;
+	overflow: hidden;
+}
+
+.zombieWall{
+	max-height: 80px;
+}
