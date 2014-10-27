@@ -179,3 +179,10 @@ footer{
 .zombieWall{
 	max-height: 80px;
 }
+
+/*//////////////////MOBILE CSS////////////////////////////*/
+@media only screen and (max-width: 980px) {
+	#listItems{
+		min-height: 500px;
+	}
+}

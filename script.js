@@ -46,19 +46,4 @@ $(document).ready(function() {
 	});
 
 
-});	
-
-
-
-/* 
-/////////////////Extra Code - Ignore This////////////////////
-
-$('#listItems').sortable({//axis:   'y',
-                             //containment: 'parent',
-                             //revert: 50,
-                             //tolerance: 'pointer',
-                             //cursor: 'move',
-
-    });
-
-*/
+});
