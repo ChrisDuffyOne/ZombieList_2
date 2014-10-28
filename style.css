@@ -183,6 +183,10 @@ footer{
 /*//////////////////MOBILE CSS////////////////////////////*/
 @media only screen and (max-width: 980px) {
 	#listItems{
-		min-height: 500px;
+		min-height: 700px;
+	}
+
+	footer{
+		display: none;
 	}
 }
