@@ -47,59 +47,56 @@ table {
 	border-spacing: 0;
 }
 
-/*MY CSS */
-
+/*/////////////////// MY CSS ///////////////////*/
 *{
 	box-sizing: border-box;
+}
+html{
+	min-height: 100%;
 }
 
 body{
 	background-color: #F6F9FA;
+	background-image: url("images/zombieWallBot.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
 }
 .container{
 	width: 100%;
 	min-height: 100%;
 }
 
-/*//////////////////HEADER SECTION////////////////////////////*/
-
+/*//////// HEADER SECTION ////////*/
 header{
-	/*height: 200px;*/
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	/*min-width: 960px;*/
 	text-align: center;
 	background-color: #515252;
 }
-
 .logoHead{
-	max-width: 40%;
+	max-width: 25%;
 	min-width: 200px;
 	min-height: 100px;
 	max-height: 350px;
 }
-
 .rip{
 	overflow: hidden;
 	max-height: 40px;
 	width: 100%;
 }
 
-/*//////////////////CONTENT RIVER SECTION////////////////////////////*/
-
+/*//////// CONTENT RIVER SECTION ////////*/
 #listItems{
-	min-height: 200px;
-	/* New CSS */
+	margin-bottom: 160px;
 	max-width: 600px;
 	display:block; 
 	margin-left: auto; 
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
-/*///////////ADD ITEMS SECTION///////////////*/
-
+/*//////// ADD ITEMS SECTION ///////*/
 .itemBox{
 	background-color: #515252;
 	max-width: 500px;
@@ -115,12 +112,10 @@ header{
 	text-align: center;
 	max-width: 500px;
 }
-
 #addbox{
 	display: block;
 	width: 350px;
 }
-
 #addButton{
 	display: block;
 	margin: 0 auto;
@@ -132,8 +127,7 @@ header{
 	color:#F1B31C;
 }
 
-/*///////////ITEMS SECTION///////////////*/
-
+/*//////// ITEMS SECTION ////////*/
 .exampleItem{
 	background-color: #515252;
 	max-width: 500px;
@@ -147,46 +141,35 @@ header{
 	color:#F1B31C;
 	height: 40px;
 }
-
-
-
 .checkMark{
 	max-height: 20px;
 	max-width: 20px;
 	float: right;
 }
-
 .deleteMark{
 	max-height: 20px;
 	max-width: 20px;
 	float: right;
 }
-
 .strike{
 	background-image: url("images/splatter.png");
 }
 
-/*//////////////////FOOTER SECTION////////////////////////////*/
-
+/*//////// FOOTER SECTION ////////*/
 footer{
 	width: 100%;
-	/*background-color: #515252;*/
 	border: none;
 	padding-top: 0px;
 	overflow: hidden;
 }
-
 .zombieWall{
 	max-height: 80px;
 }
 
 /*//////////////////MOBILE CSS////////////////////////////*/
 @media only screen and (max-width: 980px) {
-	#listItems{
-		min-height: 700px;
-	}
-
-	footer{
-		display: none;
+	/*Alter size on mobile*/
+	body{
+		background-size: 1000px;
 	}
 }
