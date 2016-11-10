@@ -28,6 +28,10 @@ $(document).ready(function() {
             { queue: true, duration: 'fast' }
         )
      	console.log('Data Post');
+
+     	//Reset box and await further input
+     	$('#addBox').val('');
+     	return false;
 	};
 
 	
